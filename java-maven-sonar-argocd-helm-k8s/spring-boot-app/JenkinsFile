@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        //git branch: 'main', url: 'https://github.com/'
+        //git branch: 'main', url: 'https://github.com/CICD-using-Jenkins/java-maven-sonar-argocd-helm-k8s'
       }
     }
     stage('Build and Test') {
